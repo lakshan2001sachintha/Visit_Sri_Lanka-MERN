@@ -11,7 +11,7 @@ const Navbar = () => {
             <a href='#Home' className='cursor-pointer hover:text-gray-400'>Home</a>
             <a href='#About' className='cursor-pointer hover:text-gray-400'>About</a>
             <a href='#Projects' className='cursor-pointer hover:text-gray-400'>Projects</a>
-            <a href='#Testmonials' className='cursor-pointer hover:text-gray-400'>Testmonials</a>
+            <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
         </ul>
            <button className='hidden md:block bg-white px-8 py-2 rounded-full'>Sign up</button>
            <img src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt=''/>
@@ -26,7 +26,7 @@ const Navbar = () => {
                 <a href='#Header' className='px-4 py-2 rounded-full inline-block'>Home</a>
                 <a href='#About' className='px-4 py-2 rounded-full inline-block'>About</a>
                 <a href='#Projects' className='px-4 py-2 rounded-full inline-block'>Projects</a>
-                <a href='#Testimonails' className='px-4 py-2 rounded-full inline-block'>Testimonails</a>
+                <a href='#Testimonials' className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
             </ul>
         </div>
     </div>
