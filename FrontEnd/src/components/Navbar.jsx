@@ -1,11 +1,17 @@
-import React from 'react'
+import {useState} from 'react'
 import {assets} from '../assets/assets'
 import Signup from './Signup'
 
 const Navbar = () => {
 
-   
+  const [isSignupOpen, setSignupOpen] = useState(false); 
+
   return (
+    <>
+  
+      {/* Show the Signup page when isSignupOpen is true */}
+    <Signup isOpen={isSignupOpen} onClose={() => setSignupOpen(false)} />
+
     <div className='absolute top-5 left-0 w-full z-10'>
       <div class='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
       
@@ -17,7 +23,7 @@ const Navbar = () => {
             <a href="#Testimonials" className='cursor-pointer hover:text-yellow-400'>Testimonials</a>
         </ul>
               <div className="grid grid-cols-2 gap-5">
-                <button className="hidden md:block border border-white bg-white px-8 py-2 rounded-full hover:text-white hover:bg-transparent">Sign up</button>
+                <button className="hidden md:block border border-white bg-white px-8 py-2 rounded-full hover:text-white hover:bg-transparent"  onClick={() => setSignupOpen(true)}>Sign up</button>
                 <button className="border border-white px-8 py-2 rounded-full text-white hover:text-black hover:bg-white">Log In</button>
               </div>
         </div>
@@ -35,6 +41,7 @@ const Navbar = () => {
             </ul>
         </div>
     </div>
+    </>
   )
 }
 
