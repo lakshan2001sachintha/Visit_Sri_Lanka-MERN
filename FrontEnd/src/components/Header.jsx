@@ -12,7 +12,7 @@ const Hearder = () => {
         
         <h2 className='text-5xl sm:text-6xl md:text-[87px] inline-block max-w-3xl font-semibold pt-48'>VISIT SRI LANKA</h2>
         <div className='space-x-6 mt-16'>
-          <a href='#Projects' className='border border-white px-8 py-3 rounded'>Projects</a>
+          <a href='#Projects' className='border border-white px-8 py-3 rounded'>Travel Guide</a>
           <button className="relative bg-yellow-500 px-8 py-3 rounded text-white hover:bg-yellow-600 transition">
             Contact Us
             <span className="absolute -top-2 -right-2 flex size-4">
