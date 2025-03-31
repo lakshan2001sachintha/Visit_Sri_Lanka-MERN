@@ -1,6 +1,7 @@
 import React from 'react'
 
-function Signup({isOpen,onClose}) {
+
+function Login({isOpen,onClose}) {
   return (
     <div className={`fixed top-0 right-0 h-full w-1/4 bg-white shadow-lg transform ${
         isOpen ? "translate-x-0" : "translate-x-full"
@@ -10,17 +11,10 @@ function Signup({isOpen,onClose}) {
           className="text-white hover:text-gray-700 absolute top-10 right-12 text-lg" onClick={onClose}>
           ✖
         </button>
-        <h2 className="text-3xl text-center text-white bg-yellow-600 px-4 py-4 mb-8">Sign Up</h2>
+        <h2 className="text-3xl text-center text-white bg-yellow-600 px-4 py-4 mb-8">Log In</h2>
 
         <form>
-          <div className="mb-6">
-            <label className="block text-gray-700 text-lg font-medium mb-2">Name</label>
-            <input
-              type="text"
-              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-600"
-              placeholder="Enter your name"
-            />
-          </div>
+         
           <div className="mb-6">
             <label className="block text-gray-700 text-lg font-medium mb-2">Email</label>
             <input
@@ -37,12 +31,15 @@ function Signup({isOpen,onClose}) {
               placeholder="Enter your password"
             />
           </div>
-          <button class="w-1/2 bg-yellow-600 text-white py-2 rounded-lg hover:bg-yellow-400 transition transform active:scale-95">Sign Up</button>
-
+          <button className="w-1/2 bg-yellow-600 text-white py-2 rounded-lg hover:bg-yellow-400 transition items-center transform active:scale-95 mb-6">
+            LogIn
+          </button>
+          <p className="text-center mt-4 text-black">Don't have an account? 
+            <a href='/Signup' className="text-gray-600 hover:text-yellow-100 font-bold cursor-pointer"><u>_Sign Up_</u></a></p>
         </form>
       </div>
     </div>
   )
 }
 
-export default Signup
+export default Login
