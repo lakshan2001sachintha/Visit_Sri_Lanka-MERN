@@ -34,7 +34,7 @@ const Navbar = () => {
               </div>
         </div>
 
-        {/*-------mobile-menu--------*/}
+        {/*-------mobile-menu--------
         <div className='md:hidden fixed w-full right-0 top-0 bottom-0 overflow-hidden bg-white transition-all'>
             <div className='flex justify-end p-6 cursor-pointer'>
                 <img src={assets.cross_icon} className='w-6' alt=''/>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <a href='#Projects' className='px-4 py-2 rounded-full inline-block'>Projects</a>
                 <a href='#Testimonials' className='px-4 py-2 rounded-full inline-block'>Testimonials</a>
             </ul>
-        </div>
+        </div>*/}
     </div>
     </>
   )
