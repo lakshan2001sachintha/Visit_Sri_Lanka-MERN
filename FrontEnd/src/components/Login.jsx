@@ -35,7 +35,7 @@ function Login({isOpen,onClose}) {
             LogIn
           </button>
           <p className="text-center mt-4 text-black">Don't have an account? 
-            <a href='/Signup' className="text-gray-600 hover:text-yellow-100 font-bold cursor-pointer"><u>_Sign Up_</u></a></p>
+            <a className="text-gray-600 hover:text-yellow-100 font-bold cursor-pointer"><u>_Sign Up_</u></a></p>
         </form>
       </div>
     </div>
