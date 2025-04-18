@@ -1,8 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import React from 'react'
 import Navbar from './Navbar'
 import {assets} from '../assets/assets'
 
 const Hearder = () => {
+  const navigate = useNavigate();
   return (
     
     <div className='min-h-screen mb-4 bg-cover bg-center flex-items-center w-full overflow-hidden'
@@ -12,7 +14,7 @@ const Hearder = () => {
         
         <h2 className='text-5xl sm:text-6xl md:text-[87px] inline-block max-w-3xl font-semibold pt-48'>VISIT SRI LANKA</h2>
         <div className='space-x-6 mt-16'>
-          <button className="border border-white px-8 py-3 rounded transition transform active:scale-95">Travel Guide</button>
+          <button className="border border-white px-8 py-3 rounded transition transform active:scale-95" onClick={() => navigate('/guide')}>Travel Guide</button>
           <button className="relative bg-yellow-500 px-8 py-3 rounded text-white hover:bg-yellow-600 transition transform active:scale-95">
             <a href='#Contact'>Contact Us</a>
             <span className="absolute -top-2 -right-2 flex size-4">

@@ -1,7 +1,7 @@
 import React from 'react'
 import { assets, testimonialsData } from '../assets/assets';
 
-const Testimonials = () => {
+const Team = () => {
   return (
     <div className='container mx-auto py-10 lg:px-32 w-full overflow-hidden' id="Testimonials">
        <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Meet
@@ -30,5 +30,5 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials;
+export default Team;
  

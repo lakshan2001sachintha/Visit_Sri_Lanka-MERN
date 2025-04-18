@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Signup({isOpen,onClose}) {
+    
   return (
     <div className={`fixed top-0 right-0 h-full w-1/4 bg-white shadow-lg transform ${
         isOpen ? "translate-x-0" : "translate-x-full"
@@ -10,7 +11,7 @@ function Signup({isOpen,onClose}) {
           className="text-white hover:text-gray-700 absolute top-10 right-12 text-lg" onClick={onClose}>
           ✖
         </button>
-        <h2 className="text-3xl text-center text-white bg-yellow-600 px-4 py-4 mb-8">Sign Up</h2>
+        <h2 className="text-3xl text-center text-white bg-yellow-600 px-4 py-4 mb-8" >Sign Up</h2>
 
         <form>
           <div className="mb-6">

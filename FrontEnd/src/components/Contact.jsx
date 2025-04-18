@@ -24,7 +24,7 @@ function Contact() {
         name ='Message' placeholder='Message' required></textarea>
     </div>
     <div>
-    <button className='bg-yellow-600 hover:bg-yellow-400 text-white px-8 py-2 rounded'>Learn more</button>
+    <button className='bg-yellow-600 hover:bg-yellow-400 text-white px-8 py-2 rounded'>Submit</button>
     </div>
     </form>
 
