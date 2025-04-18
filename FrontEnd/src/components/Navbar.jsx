@@ -24,8 +24,8 @@ const Navbar = () => {
         <ul className='hidden md:flex gap-10 text-white text-lg'>
             <a href='#Home' className='cursor-pointer hover:text-yellow-400'>Home</a>
             <a href='#About' className='hover:text-yellow-400'>About</a>
-            <a href='#Projects' className='cursor-pointer hover:text-yellow-400'>Projects</a>
-            <a href="#Testimonials" className='cursor-pointer hover:text-yellow-400'>Testimonials</a>
+            <a href='#Projects' className='cursor-pointer hover:text-yellow-400'>Places</a>
+          
         </ul>
               <div className="grid grid-cols-2 gap-7">
                 <button className="border border-white px-8 py-2 rounded-full text-white hover:text-black hover:bg-white transition transform active:scale-95" onClick={() => setLoginOpen(true)} >Log In</button>
