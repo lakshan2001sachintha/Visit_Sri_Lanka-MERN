@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { assets, projectsData } from '../assets/assets'
 
-function Projects() {
+function Places() {
 
      const [currentIndex , setCurrentIndex] = useState(0);
      const [cardsToShow , setCardsToShow] = useState(1);
@@ -72,4 +72,4 @@ function Projects() {
   )
 }
 
-export default Projects;
+export default Places;
