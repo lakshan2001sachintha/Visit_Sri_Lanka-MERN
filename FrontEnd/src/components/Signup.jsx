@@ -1,4 +1,5 @@
 import React from 'react'
+import art from "../assets/art.png";
 
 function Signup({isOpen,onClose}) {
     
@@ -41,6 +42,9 @@ function Signup({isOpen,onClose}) {
           <button class="w-1/2 bg-yellow-600 text-white py-2 rounded-lg hover:bg-yellow-400 transition transform active:scale-95">Sign Up</button>
 
         </form>
+        <div className="flex justify-center my-8">
+                  <img src={art} alt="Descriptive Alt Text" className="max-w-full h-auto rounded-lg shadow-md"/>
+        </div>
       </div>
     </div>
   )

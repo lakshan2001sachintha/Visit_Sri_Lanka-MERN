@@ -1,4 +1,5 @@
 import React from 'react'
+import art from "../assets/art.png";
 
 
 function Login({isOpen,onClose}) {
@@ -37,6 +38,9 @@ function Login({isOpen,onClose}) {
           <p className="text-center mt-4 text-black">Don't have an account? 
             <a className="text-gray-600 hover:text-yellow-100 font-bold cursor-pointer"><u>_Sign Up_</u></a></p>
         </form>
+        <div className="flex justify-center my-8">
+          <img src={art} alt="Descriptive Alt Text" className="max-w-full h-auto rounded-lg shadow-md"/>
+        </div>
       </div>
     </div>
   )

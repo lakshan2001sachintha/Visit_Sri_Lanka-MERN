@@ -6,6 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Places from "./components/Places";
 import TGuide from "./components/TGuide";
+import travelImage from './assets/perahara.jpg';
 
 const App = () => {
   return (
@@ -18,6 +19,12 @@ const App = () => {
               <Header />
               <About />
               <Places />
+              <div className="flex justify-center my-8">
+                <img 
+                  src={travelImage}
+                  alt="Descriptive Alt Text" 
+                  className="max-w-full h-auto rounded-lg shadow-md"/>
+              </div>
               <Contact />
               <Footer />
             </>
