@@ -3,6 +3,7 @@ import Team from './Team';
 import TGone from './TGone';
 import Footer from "./Footer";
 import gde from '../assets/gde.jpg';
+import food from '../assets/food.png';
 
 function TGuide() {
   return (
@@ -15,6 +16,9 @@ function TGuide() {
         <img src={gde} alt="Sri Lanka" className="w-full h-full object-contain" /> 
       </div>
     <TGone/>
+    <div className='pt-60'>
+      <img src={food} alt="Sri Lanka" className="w-full h-full object-contain" /> 
+    </div>
     <Team />
       <div className='pt-40'>
         <Footer/> 
